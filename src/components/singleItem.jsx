@@ -27,3 +27,5 @@ const SingleItem = ({item}) => {
     </div>
    )
 }
+
+export default SingleItem;

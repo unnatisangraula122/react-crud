@@ -116,3 +116,10 @@ h2 {
 .remove-btn {
   color: #ff6b6b;
 }
+.edit-input {
+  flex: 1;
+  margin-left: 10px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}

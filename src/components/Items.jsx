@@ -1,6 +1,6 @@
 import SingleItem from "./SingleItem";
 
-const Items = ({ items, editCompleted, removeItem }) => {
+const Items = ({ items, editCompleted, removeItem  ,  updateItem}) => {
   return (
     <div className="items">
       {items.map((item) => (
@@ -9,6 +9,7 @@ const Items = ({ items, editCompleted, removeItem }) => {
           item={item}
           editCompleted={editCompleted}
           removeItem={removeItem}
+          updateItem={updateItem}
         />
       ))}
     </div>
